@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #FFFFFF; /* Cor de fundo branca */
+            color: #477C9C; /* Cor do texto */
+        }
+        header {
+            background-color: #477C9C; /* Cor do cabeçalho */
+        }
+        footer {
+            background-color: #477C9C; /* Cor do rodapé */
+            color: #FFFFFF; /* Cor do texto no rodapé */
+        }
+        .navbar-nav .nav-link {
+            color: #FFFFFF; /* Cor dos links no menu */
+        }
+        .navbar-nav .nav-link:hover {
+            color: #B5C2CA; /* Cor do hover nos links do menu */
+        }
+        .btn-success {
+            background-color: #B5C2CA; /* Cor do botão de sucesso */
+            border-color: #B5C2CA; /* Cor da borda do botão de sucesso */
+        }
+        .btn-success:hover {
+            background-color: #477C9C; /* Cor do hover do botão de sucesso */
+            border-color: #477C9C; /* Cor da borda do hover do botão de sucesso */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img class="img-fluid" src="/img/logoProServe.fw.png" width="150px" alt="Brand Logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item ms-0 ms-md-3">
+                            <a class="nav-link" href="/src/index.html">Home</a>
+                        </li>
+                        <li class="nav-item ms-0 ms-md-3">
+                            <a class="nav-link" href="/src/clientes.html">Clientes</a>
+                        </li>
+                        <li class="nav-item ms-0 ms-md-3">
+                            <a class="nav-link" href="/src/serviços.html">Serviços</a>
+                        </li>
+                        <li class="nav-item ms-0 ms-md-3">
+                            <a class="px-4 py-2 btn btn-primary" href="#">Contato</a>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+        <div class="container mt-5">
+            <h1 class="text-center">Contato</h1>
+            <div class="row mt-4">
+                <div class="col-md-6">
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Nome</label>
+                            <input type="text" class="form-control" id="name" name="name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">E-mail</label>
+                            <input type="email" class="form-control" id="email" name="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Mensagem</label>
+                            <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+                    </form>
+                    <div class="mt-4">
+                        <h5>Redes Sociais</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="https://www.facebook.com/suaempresa" target="_blank">Facebook</a></li>
+                            <li><a href="https://www.instagram.com/suaempresa" target="_blank">Instagram</a></li>
+                            <li><a href="https://www.linkedin.com/company/suaempresa" target="_blank">LinkedIn</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <!-- Mapa incorporado (por exemplo, Google Maps) -->
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.070073319473!2d-0.12249468423478596!3d51.50336490751375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761b0359c2be0b%3A0x78cbe88c8e9241cf!2sBig%20Ben!5e0!3m2!1sen!2suk!4v1623403695427!5m2!1sen!2suk" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-6">
+                    <h5>Conecte-se pelo WhatsApp</h5>
+                    <p>Para perguntas rápidas ou suporte imediato, você pode nos contatar pelo WhatsApp.</p>
+                    <a href="" target="_blank" class="btn btn-success">Iniciar Conversa no WhatsApp</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class=" text-white text-center py-3">
+        <p>&copy; 2024 Pro-Serve</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

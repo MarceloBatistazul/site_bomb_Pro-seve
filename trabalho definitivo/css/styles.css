@@ -1,0 +1,48 @@
+/* Custom Styles */
+
+/* Body Background Color */
+body {
+    background-color: #FFFFFF; /* RGB 255, 255, 255 */
+}
+
+/* Navbar Background Color */
+.navbar {
+    background-color: #477C9C; /* RGB 71, 124, 156 */
+}
+
+/* Navbar Link Color */
+.navbar-nav .nav-link {
+    color: #FFFFFF; /* White */
+}
+
+/* Navbar Link Hover Color */
+.navbar-nav .nav-link:hover {
+    color: #B5C2CA; /* RGB 181, 194, 202 */
+}
+
+/* Primary Button Background Color */
+.btn-primary {
+    background-color: #477C9C; /* RGB 71, 124, 156 */
+    border-color: #477C9C; /* RGB 71, 124, 156 */
+}
+
+/* Primary Button Text Color */
+.btn-primary {
+    color: #FFFFFF; /* White */
+}
+
+/* Primary Button Hover Background Color */
+.btn-primary:hover {
+    background-color: #B5C2CA; /* RGB 181, 194, 202 */
+    border-color: #B5C2CA; /* RGB 181, 194, 202 */
+}
+
+/* Footer Background Color */
+.footer-section {
+    background-color: #477C9C; /* RGB 71, 124, 156 */
+}
+
+/* Footer Text Color */
+.footer-section p {
+    color: #FFFFFF; /* White */
+}
